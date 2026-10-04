@@ -4,24 +4,23 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>DITT</title>
         <item>
-            <title>0.1.1</title>
-            <pubDate>Sun, 04 Oct 2026 12:07:39 +0000</pubDate>
-            <sparkle:version>1011</sparkle:version>
-            <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
+            <title>0.1.2</title>
+            <pubDate>Sun, 04 Oct 2026 12:30:17 +0000</pubDate>
+            <sparkle:version>1012</sparkle:version>
+            <sparkle:shortVersionString>0.1.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p>DITT can now keep itself up to date.</p>
+            <description><![CDATA[<p>Keep DITT ready after every restart.</p>
 <ul>
-<li>Check for updates from Settings → Updates.</li>
-<li>Daily background checks let you know when an update is available.</li>
-<li>Choose automatic downloads and installation when DITT quits, or install each update yourself.</li>
-<li>Update screens use DITT’s familiar design. Current checks get time to finish before a requested restart.</li>
+<li>The final setup screen now offers a Launch DITT when I log in switch, without adding another step.</li>
+<li>Your choice is saved with setup and applied only when you press Start DITT.</li>
+<li>Existing login settings stay in place. Settings reflects macOS approval status and explains how to resolve a failed registration.</li>
 </ul>
-<p>Requires macOS 14 or later. Existing users need to install this version manually once to enable future in-app updates.</p>
+<p>Requires macOS 14 or later. Preview 10 users can install from Settings → Updates.</p>
 ]]></description>
-            <enclosure url="https://github.com/rebellion-systems/doitrustthis-macos-releases/releases/download/v0.1.1-preview.10/DITT-macOS-signed.zip" length="5730590" type="application/octet-stream" sparkle:edSignature="eKb4CX3c+piTLfG6/noi4g80/bihJN7dBxqeilhfD9HxKxJsvVL0jVavvFYkd9CyCIATXDYRSNwH0TOE4zZiCQ=="></enclosure>
+            <enclosure url="https://github.com/rebellion-systems/doitrustthis-macos-releases/releases/download/v0.1.2-preview.11/DITT-macOS-signed.zip" length="5726207" type="application/octet-stream" sparkle:edSignature="sjb7q8Nm4uyITRkM3A+lnALY1v7gJdoOZygF+nDhv5wB/7jeQxNIFJqy7CroKNWwOQKAA00uGLVUXRb87Z+KBg=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: mocz7W99D4ybvrMpjge6+wEmoBKC6G5s+LR6PfgxJMIVscqpmFo+I6PUD1RMsP5NN2Hr4DxWoLMDDrAGDqC8DA==
-length: 1663
+edSignature: 6jLo7ZrNh4Zqkud+gB/v6sEIRpCCe2HSJlvZqxKJuB9BOdTFHUnCQ/pAUOqpkbSKp6e4dinIXhV30VmBD405AA==
+length: 1612
 -->
