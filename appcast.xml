@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>DITT</title>
+        <item>
+            <title>0.1.1</title>
+            <pubDate>Sun, 04 Oct 2026 12:07:39 +0000</pubDate>
+            <sparkle:version>1011</sparkle:version>
+            <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p>DITT can now keep itself up to date.</p>
+<ul>
+<li>Check for updates from Settings → Updates.</li>
+<li>Daily background checks let you know when an update is available.</li>
+<li>Choose automatic downloads and installation when DITT quits, or install each update yourself.</li>
+<li>Update screens use DITT’s familiar design. Current checks get time to finish before a requested restart.</li>
+</ul>
+<p>Requires macOS 14 or later. Existing users need to install this version manually once to enable future in-app updates.</p>
+]]></description>
+            <enclosure url="https://github.com/rebellion-systems/doitrustthis-macos-releases/releases/download/v0.1.1-preview.10/DITT-macOS-signed.zip" length="5730590" type="application/octet-stream" sparkle:edSignature="eKb4CX3c+piTLfG6/noi4g80/bihJN7dBxqeilhfD9HxKxJsvVL0jVavvFYkd9CyCIATXDYRSNwH0TOE4zZiCQ=="></enclosure>
+        </item>
+    </channel>
+</rss><!-- sparkle-signatures:
+edSignature: mocz7W99D4ybvrMpjge6+wEmoBKC6G5s+LR6PfgxJMIVscqpmFo+I6PUD1RMsP5NN2Hr4DxWoLMDDrAGDqC8DA==
+length: 1663
+-->
