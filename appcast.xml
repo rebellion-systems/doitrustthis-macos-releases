@@ -4,27 +4,29 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>DITT</title>
         <item>
-            <title>0.1.3</title>
-            <pubDate>Mon, 05 Oct 2026 12:10:28 +0000</pubDate>
-            <sparkle:version>1013</sparkle:version>
-            <sparkle:shortVersionString>0.1.3</sparkle:shortVersionString>
+            <title>0.1.4</title>
+            <pubDate>Tue, 06 Oct 2026 11:30:17 +0000</pubDate>
+            <sparkle:version>1014</sparkle:version>
+            <sparkle:shortVersionString>0.1.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<!doctype html><html lang="en"><head><meta charset="utf-8"><title>DITT 0.1.3 · Preview 12</title></head><body>
-<h1>Clearer checks, fewer missed requests</h1>
-<ul><li>Improved app reading: inspect generic Accessibility groups and omit known input areas during passive screen reading.</li>
-<li>Limited checks with reassuring scores (70+) appear in gray with a qualified headline; lower scores retain their warning colours. Local screenshot text reading is shown separately from server image analysis.</li>
-<li>Visible sender names and domains are compared against seven reviewed brands. The standard text filter keeps sender domains while removing mailbox names and recipient/body addresses; custom filters still apply.</li>
-<li>Manual app captures briefly shrink a thumbnail toward the menu bar. Uses the existing screenshot, follows Reduce Motion, and can be disabled in Advanced settings.</li>
-<li>App-check shortcuts wait briefly when capture is busy, and repeated presses are combined.</li>
-<li>Background sampling has one schedule. New installations default to ten seconds; existing settings remain unchanged. Checks shows sampling status.</li>
-<li>The menu badge counts unread concerns. Review a result or choose Mark all reviewed to clear it. A separate total records concerns flagged.</li></ul>
-<p>Server-side image-reading failures and broader detector improvements remain separate work. Native client coverage varies; this update does not establish that every Superhuman link is exposed.</p>
+            <description><![CDATA[<!doctype html><html lang="en"><head><meta charset="utf-8"><title>DITT 0.1.4</title></head><body>
+<h1>Clearer results and more useful email evidence</h1>
+<ul>
+<li>Email addresses, sender details and links now stay intact by default. Only likely credit-card numbers are redacted. Optional email redaction is available in Advanced filtering settings; custom rules keep your choices.</li>
+<li>Accessibility reads wider and deeper app trees, with more time for manual checks and clearer diagnostics when a read is partial.</li>
+<li>Local sender checks recognize service-role names such as “X-Request” alongside a matching account-alert subject and an unrelated sender domain.</li>
+<li>Incomplete link checks appear as a small coverage note. Unimplemented AI-image detection is no longer listed as a missing check. Strong local warnings still take priority over a high server score.</li>
+<li>Company and sender checks now cover billing, refunds and forwarded messages, using the server’s full shared company directory and offline lookalike-domain rules.</li>
+<li>Findings name the company, sender and destination, with concrete next steps and compact link-failure details.</li>
+<li>Passive checks prioritize exposed document content and can supplement thin Accessibility reads with local OCR. Unfamiliar domains alone stay quiet at Balanced sensitivity.</li>
+</ul>
+<p>Physical Superhuman coverage still varies with the content it exposes. This update does not change the server's link fetching or numeric scoring.</p>
 </body></html>
 ]]></description>
-            <enclosure url="https://github.com/rebellion-systems/doitrustthis-macos-releases/releases/download/v0.1.3-preview.12/DITT-macOS-signed.zip" length="5962038" type="application/octet-stream" sparkle:edSignature="yaJEUwpkXCQ5gCwLlZPFWJwegodDXH50KjvA3Tg5WVZNeCNyo9N09Wm0tW6SP9m+Ubbczw+A48G5HmzT8jILDA=="></enclosure>
+            <enclosure url="https://github.com/rebellion-systems/doitrustthis-macos-releases/releases/download/v0.1.4-preview.13/DITT-macOS-signed.zip" length="7689549" type="application/octet-stream" sparkle:edSignature="b82VZV9Rf/1Uk8SxX+JcuYCNf0yMA0iAuQdFB6jywMOsyTlWtFnY86T9wXuR6/gQbD/T4eXGq2leDJXmlOzCDQ=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 5ZKjwc+G8WZLAIFTHiNBXBsx2r4TSOqo03IVBpteS2Al3MGGpwaWEI2+Fw6UOC2bxPY+3mihqNFs6a8om4w8AQ==
-length: 2651
+edSignature: vRdBW3AzyjkE22pTKs9DO1jSAF26YdcHN4U7NPvnRMwiLy47F4vO4Zb/T1c0g34WO2qCWir790Zq6vfm9HCnAg==
+length: 2668
 -->
