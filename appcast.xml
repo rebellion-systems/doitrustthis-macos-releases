@@ -4,29 +4,23 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>DITT</title>
         <item>
-            <title>0.1.4</title>
-            <pubDate>Tue, 06 Oct 2026 11:30:17 +0000</pubDate>
-            <sparkle:version>1014</sparkle:version>
-            <sparkle:shortVersionString>0.1.4</sparkle:shortVersionString>
+            <title>0.1.5</title>
+            <pubDate>Tue, 06 Oct 2026 16:13:29 +0000</pubDate>
+            <sparkle:version>1015</sparkle:version>
+            <sparkle:shortVersionString>0.1.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<!doctype html><html lang="en"><head><meta charset="utf-8"><title>DITT 0.1.4</title></head><body>
-<h1>Clearer results and more useful email evidence</h1>
-<ul>
-<li>Email addresses, sender details and links now stay intact by default. Only likely credit-card numbers are redacted. Optional email redaction is available in Advanced filtering settings; custom rules keep your choices.</li>
-<li>Accessibility reads wider and deeper app trees, with more time for manual checks and clearer diagnostics when a read is partial.</li>
-<li>Local sender checks recognize service-role names such as “X-Request” alongside a matching account-alert subject and an unrelated sender domain.</li>
-<li>Incomplete link checks appear as a small coverage note. Unimplemented AI-image detection is no longer listed as a missing check. Strong local warnings still take priority over a high server score.</li>
-<li>Company and sender checks now cover billing, refunds and forwarded messages, using the server’s full shared company directory and offline lookalike-domain rules.</li>
-<li>Findings name the company, sender and destination, with concrete next steps and compact link-failure details.</li>
-<li>Passive checks prioritize exposed document content and can supplement thin Accessibility reads with local OCR. Unfamiliar domains alone stay quiet at Balanced sensitivity.</li>
-</ul>
-<p>Physical Superhuman coverage still varies with the content it exposes. This update does not change the server's link fetching or numeric scoring.</p>
-</body></html>
+            <description><![CDATA[<!doctype html><html lang="en"><head><meta charset="utf-8"><title>DITT 0.1.5</title></head><body>
+<h1>Passive app checks keep reading under overlays</h1><ul>
+<li>Background Accessibility checks read the foreground app’s text and links independently of Screen Recording and overlapping windows, matching the working app shortcut.</li>
+<li>The Dock’s invisible full-display surfaces no longer stop passive reading. Optional local OCR skips covered areas instead of waiting for an entirely uncovered window.</li>
+<li>Window captures use the display’s pixel scale so screen-text masks align on non-Retina displays and when large captures are resized.</li>
+<li>Activity shows the latest background-check outcome, separate from manual checks.</li>
+</ul><p>Saved monitoring and cloud preferences remain unchanged. Hidden content, recognized input fields and excluded apps remain omitted. Accessibility may read the foreground app’s own text beneath an overlay; passive checks send text only.</p></body></html>
 ]]></description>
-            <enclosure url="https://github.com/rebellion-systems/doitrustthis-macos-releases/releases/download/v0.1.4-preview.13/DITT-macOS-signed.zip" length="7689549" type="application/octet-stream" sparkle:edSignature="b82VZV9Rf/1Uk8SxX+JcuYCNf0yMA0iAuQdFB6jywMOsyTlWtFnY86T9wXuR6/gQbD/T4eXGq2leDJXmlOzCDQ=="></enclosure>
+            <enclosure url="https://github.com/rebellion-systems/doitrustthis-macos-releases/releases/download/v0.1.5-preview.14/DITT-macOS-signed.zip" length="7738349" type="application/octet-stream" sparkle:edSignature="jMMHPmSJvHxus+Dm2ptkvlNhlzoFbdA/Zyfv1xko55pWlstrDOOqst6ilTftHGJ7kJcDNxz9+wH0mvgQVymMDw=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: vRdBW3AzyjkE22pTKs9DO1jSAF26YdcHN4U7NPvnRMwiLy47F4vO4Zb/T1c0g34WO2qCWir790Zq6vfm9HCnAg==
-length: 2668
+edSignature: 9LDwA/HmnSixM5Ei6+h3MXdJub/xjL1ofv23aHMCKvio57ShjTv4z1QK+SMFe3P913X+IexOfa1glt4dzl1FCg==
+length: 2145
 -->
