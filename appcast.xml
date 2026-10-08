@@ -4,24 +4,23 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>DITT</title>
         <item>
-            <title>0.1.9</title>
-            <pubDate>Thu, 08 Oct 2026 14:54:32 +0000</pubDate>
-            <sparkle:version>1019</sparkle:version>
-            <sparkle:shortVersionString>0.1.9</sparkle:shortVersionString>
+            <title>0.1.10</title>
+            <pubDate>Thu, 08 Oct 2026 20:12:57 +0000</pubDate>
+            <sparkle:version>1020</sparkle:version>
+            <sparkle:shortVersionString>0.1.10</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<!doctype html><html lang="en"><head><meta charset="utf-8"><title>DITT 0.1.9</title></head><body>
-<h1>More reliable image text reading</h1><ul>
-<li>Tall selected images are read in overlapping sections so message text is not squeezed into a tiny thumbnail. Very long images have a bounded local reading limit, shown in check details.</li>
-<li>QR recognition and text recognition are independent. If one fails, DITT keeps the other result. Manual images remain available for the online check.</li>
-<li>Manual app checks keep readable Accessibility text and links if their screenshot fails. Selected screen regions use the display’s native scale.</li>
-<li>Check details distinguish text that was read, no text found and recognition errors. Exports include image dimensions, line counts and diagnostic codes.</li>
-<li>Missing scores show the server’s explanation when available. This update does not invent scores or change server scoring.</li>
-</ul><p>Saved settings, exclusions and history are preserved. No new permission is required.</p></body></html>
+            <description><![CDATA[<!doctype html><html lang="en"><head><meta charset="utf-8"><title>DITT 0.1.10</title></head><body>
+<h1>Recognize what a warning was about</h1><ul>
+<li>A compact “What was checked” card below the score shows the original app, capture time, a short text excerpt and relevant link destinations.</li>
+<li>Excerpts stay with their own check, so a delayed result still refers to the message or page that was checked. When possible, findings help choose the relevant passage.</li>
+<li>New local-only checks can keep a brief filtered excerpt in encrypted history. Saved exclusions and text filters still apply. Link credentials, query strings and fragments are omitted from this reminder.</li>
+<li>Older online checks can use their saved submitted text. Older local checks without retained content show that an excerpt is unavailable.</li>
+</ul><p>No new capture, permission or online request is added. Excerpts appear inside DITT; notification content, warning thresholds and scores are unchanged.</p></body></html>
 ]]></description>
-            <enclosure url="https://github.com/rebellion-systems/doitrustthis-macos-releases/releases/download/v0.1.9-preview.18/DITT-macOS-signed.zip" length="8154310" type="application/octet-stream" sparkle:edSignature="pPao7Hzih/kVUC4K6sP5e7ed3Z7oBmELk9r9B1Mnv+63ZiAFKJmF2W6gPlpvNyLpvlbraSWmZZBGrESxls/tBQ=="></enclosure>
+            <enclosure url="https://github.com/rebellion-systems/doitrustthis-macos-releases/releases/download/v0.1.10-preview.19/DITT-macOS-signed.zip" length="8295945" type="application/octet-stream" sparkle:edSignature="RSbi6IM7zNWGQ2f/O0W1npuUdEKOJrBTeji10MKkSyTC26jeW6GtzGkPRFzhhxLjbXM4pPrpYH7vSwgiiUwQCg=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: aA6J06jJEvscXoL43dZoN/+FbHpcZSZ4WSukrGAj/CIBIcaMGlTwxYPOq8T+Py0XFcb0syAR3fKr9apjEUKsAQ==
-length: 2191
+edSignature: KdwZS5T/3/3WBpdxMHXJk+Bq0R7+SZHerTcygAF5GK/iP3CH4OUmcDkyG/JXewiJBqdiC4MUpgLd0DK2hrWTCw==
+length: 2150
 -->
