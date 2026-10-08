@@ -4,25 +4,24 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>DITT</title>
         <item>
-            <title>0.1.8</title>
-            <pubDate>Thu, 08 Oct 2026 12:28:21 +0000</pubDate>
-            <sparkle:version>1018</sparkle:version>
-            <sparkle:shortVersionString>0.1.8</sparkle:shortVersionString>
+            <title>0.1.9</title>
+            <pubDate>Thu, 08 Oct 2026 14:54:32 +0000</pubDate>
+            <sparkle:version>1019</sparkle:version>
+            <sparkle:shortVersionString>0.1.9</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<!doctype html><html lang="en"><head><meta charset="utf-8"><title>DITT 0.1.8</title></head><body>
-<h1>Balanced warnings catch more concrete concerns</h1><ul>
-<li>Balanced can now alert on requests for codes, passwords, recovery keys, remote access, advance payments or changed payment details when DITT recommends verification, even before a finding becomes red.</li>
-<li>Company-domain warnings can alert when backed by another message warning. On your Mac, an active request with both an unlisted sender and destination can also alert.</li>
-<li>Routine link quirks, urgency alone and incomplete company-directory entries alone stay quiet at Balanced. Quiet and Sensitive settings retain their thresholds.</li>
-<li>Fixes missing unread badges when a check becomes concerning without its warning colour changing.</li>
-<li>A stronger warning can interrupt after a weaker one during the notification cooldown. Same-strength repeats remain quiet.</li>
-<li>Removes the blanket notice about unavailable factual checks. Each result still shows its actual coverage and limitations.</li>
-</ul><p>Saved settings and history remain in place. These changes affect alerts and badges; they do not change server scores or add new permissions.</p></body></html>
+            <description><![CDATA[<!doctype html><html lang="en"><head><meta charset="utf-8"><title>DITT 0.1.9</title></head><body>
+<h1>More reliable image text reading</h1><ul>
+<li>Tall selected images are read in overlapping sections so message text is not squeezed into a tiny thumbnail. Very long images have a bounded local reading limit, shown in check details.</li>
+<li>QR recognition and text recognition are independent. If one fails, DITT keeps the other result. Manual images remain available for the online check.</li>
+<li>Manual app checks keep readable Accessibility text and links if their screenshot fails. Selected screen regions use the display’s native scale.</li>
+<li>Check details distinguish text that was read, no text found and recognition errors. Exports include image dimensions, line counts and diagnostic codes.</li>
+<li>Missing scores show the server’s explanation when available. This update does not invent scores or change server scoring.</li>
+</ul><p>Saved settings, exclusions and history are preserved. No new permission is required.</p></body></html>
 ]]></description>
-            <enclosure url="https://github.com/rebellion-systems/doitrustthis-macos-releases/releases/download/v0.1.8-preview.17/DITT-macOS-signed.zip" length="8051451" type="application/octet-stream" sparkle:edSignature="ZyCUGPiImE5lUIHPmwaE+TVZoufDxuha75mxMX3xHdiKBuQQJHdU2WaAel/0W8+JlD6e6Kdy1lIFp/duFzoMAA=="></enclosure>
+            <enclosure url="https://github.com/rebellion-systems/doitrustthis-macos-releases/releases/download/v0.1.9-preview.18/DITT-macOS-signed.zip" length="8154310" type="application/octet-stream" sparkle:edSignature="pPao7Hzih/kVUC4K6sP5e7ed3Z7oBmELk9r9B1Mnv+63ZiAFKJmF2W6gPlpvNyLpvlbraSWmZZBGrESxls/tBQ=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 4m1MXMX+E44LOCPT4DiA9IhMqZt5pY82LpvBdBG7E0VX02WW2tRuvhElqlSGLSAU+xUH203P8sXnIT/y8yhaAg==
-length: 2381
+edSignature: aA6J06jJEvscXoL43dZoN/+FbHpcZSZ4WSukrGAj/CIBIcaMGlTwxYPOq8T+Py0XFcb0syAR3fKr9apjEUKsAQ==
+length: 2191
 -->
