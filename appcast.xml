@@ -4,23 +4,25 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>DITT</title>
         <item>
-            <title>0.1.6</title>
-            <pubDate>Wed, 07 Oct 2026 11:42:26 +0000</pubDate>
-            <sparkle:version>1016</sparkle:version>
-            <sparkle:shortVersionString>0.1.6</sparkle:shortVersionString>
+            <title>0.1.7</title>
+            <pubDate>Thu, 08 Oct 2026 09:49:17 +0000</pubDate>
+            <sparkle:version>1017</sparkle:version>
+            <sparkle:shortVersionString>0.1.7</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<!doctype html><html lang="en"><head><meta charset="utf-8"><title>DITT 0.1.6</title></head><body>
-<h1>Domain warnings stay visible when a page cannot be read</h1><ul>
-<li>Recognizes links that spell a known company's full domain inside a different domain, including short names such as X.</li>
-<li>Matches a visible company sender name to an imitating link even when a message only asks you to view a report.</li>
-<li>Keeps strong local warnings prominent when the online check cannot calculate a score.</li>
-<li>Shows the server's URL findings and inspection coverage without a separate numeric URL rating.</li>
-</ul><p>Saved monitoring, cloud, privacy and notification preferences stay in place. Domain observations do not authenticate a sender. Existing check history is unchanged.</p></body></html>
+            <description><![CDATA[<!doctype html><html lang="en"><head><meta charset="utf-8"><title>DITT 0.1.7</title></head><body>
+<h1>Checks focus on what you are reading</h1><ul>
+<li>Prioritizes the open email or main browser content, keeping sender details, message context and exposed link destinations together.</li>
+<li>Adds conversation selection for Messages, WhatsApp, Telegram, Signal and Slack, where the app exposes a readable transcript.</li>
+<li>Gives recent visible messages priority over chat lists and older history, with clear notes when content is omitted from an online check.</li>
+<li>Reduces repeat chat uploads caused by sidebar changes, typing indicators and read receipts.</li>
+<li>Reads exposed descriptions from native list rows when those rows provide no ordinary readable text.</li>
+<li>Keeps reviewed text consistent with what is sent, including custom text filters and long conversations.</li>
+</ul><p>Local checks still inspect the wider readable capture. Saved monitoring, cloud, privacy and update preferences remain in place. App Accessibility support varies; hidden link destinations are available only when the app exposes them. Browser reading uses Accessibility and does not require a new extension. Coverage in individual clients is still being validated.</p></body></html>
 ]]></description>
-            <enclosure url="https://github.com/rebellion-systems/doitrustthis-macos-releases/releases/download/v0.1.6-preview.15/DITT-macOS-signed.zip" length="7749946" type="application/octet-stream" sparkle:edSignature="/IThtLVZ8hGYj9LvOQqOtOM7sAnqUrwhqBybqExFo1e9+C3pWwJbAz5M7YD6/3bfuEt97CKL8rU22lZxyNyNCg=="></enclosure>
+            <enclosure url="https://github.com/rebellion-systems/doitrustthis-macos-releases/releases/download/v0.1.7-preview.16/DITT-macOS-signed.zip" length="8032118" type="application/octet-stream" sparkle:edSignature="5FvA+6QTZp+74Ue8Ax16+NOHRennmVEPRn/wrZtlY9tcaq5nqUvTRz7wx74lDKPWfGBsri4PwLvcaLyVyPLsAw=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: rtIGxUUpLk2fplFUMN2aRAA5ka1pWnqDyq7+FaUdUj6QFVgSr3XrpVeFzYbWH4vYIeaFrHn81mHyJ53b4aykBg==
-length: 1937
+edSignature: onTyC0/Gu5WPMx1FUqW6pMeBBGYA4jspMVOaOZpfZHqyyr+ZWSdeTlYLCK29MI13UGGqV2Koy20jqDzJ0n4mCg==
+length: 2415
 -->
