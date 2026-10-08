@@ -4,23 +4,21 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>DITT</title>
         <item>
-            <title>0.1.10</title>
-            <pubDate>Thu, 08 Oct 2026 20:12:57 +0000</pubDate>
-            <sparkle:version>1020</sparkle:version>
-            <sparkle:shortVersionString>0.1.10</sparkle:shortVersionString>
+            <title>0.1.11</title>
+            <pubDate>Thu, 08 Oct 2026 22:20:04 +0000</pubDate>
+            <sparkle:version>1021</sparkle:version>
+            <sparkle:shortVersionString>0.1.11</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<!doctype html><html lang="en"><head><meta charset="utf-8"><title>DITT 0.1.10</title></head><body>
-<h1>Recognize what a warning was about</h1><ul>
-<li>A compact “What was checked” card below the score shows the original app, capture time, a short text excerpt and relevant link destinations.</li>
-<li>Excerpts stay with their own check, so a delayed result still refers to the message or page that was checked. When possible, findings help choose the relevant passage.</li>
-<li>New local-only checks can keep a brief filtered excerpt in encrypted history. Saved exclusions and text filters still apply. Link credentials, query strings and fragments are omitted from this reminder.</li>
-<li>Older online checks can use their saved submitted text. Older local checks without retained content show that an excerpt is unavailable.</li>
-</ul><p>No new capture, permission or online request is added. Excerpts appear inside DITT; notification content, warning thresholds and scores are unchanged.</p></body></html>
+            <description><![CDATA[<!doctype html><html lang="en"><head><meta charset="utf-8"><title>DITT 0.1.11</title></head><body>
+<h1>Fewer false alarms on Google country sites</h1><ul>
+<li>Google country domains such as google.pt and their subdomains are now recognized as Google in the local company comparison. This fixes an incorrect impersonation warning on Google Translate.</li>
+<li>The correction uses Google's published list of country domains. Lookalike and unrelated domains still receive the existing checks.</li>
+</ul><p>Password and verification-code requests, other warning signals, notification sensitivity, cloud checks and saved settings are unchanged. Historical checks retain the findings recorded at the time.</p></body></html>
 ]]></description>
-            <enclosure url="https://github.com/rebellion-systems/doitrustthis-macos-releases/releases/download/v0.1.10-preview.19/DITT-macOS-signed.zip" length="8295945" type="application/octet-stream" sparkle:edSignature="RSbi6IM7zNWGQ2f/O0W1npuUdEKOJrBTeji10MKkSyTC26jeW6GtzGkPRFzhhxLjbXM4pPrpYH7vSwgiiUwQCg=="></enclosure>
+            <enclosure url="https://github.com/rebellion-systems/doitrustthis-macos-releases/releases/download/v0.1.11-preview.20/DITT-macOS-signed.zip" length="8294786" type="application/octet-stream" sparkle:edSignature="GufRZtCMUYgtqp+AF8SuqUI3CcZKFlTQoFGaYT6a7G1Z/9dnnO8rB2sCvZr/8JgNV5WayDIb8z1iVjATAa1ODA=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: KdwZS5T/3/3WBpdxMHXJk+Bq0R7+SZHerTcygAF5GK/iP3CH4OUmcDkyG/JXewiJBqdiC4MUpgLd0DK2hrWTCw==
-length: 2150
+edSignature: OivdYnrcLg2Z884A+DcfadF1qOZ90GgZqSeHbk8s9MnqiLmbggG8RhWzly3z7mfZGlVRiXEnO95jSCfGiTjwAA==
+length: 1855
 -->
