@@ -4,25 +4,25 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>DITT</title>
         <item>
-            <title>0.1.7</title>
-            <pubDate>Thu, 08 Oct 2026 09:49:17 +0000</pubDate>
-            <sparkle:version>1017</sparkle:version>
-            <sparkle:shortVersionString>0.1.7</sparkle:shortVersionString>
+            <title>0.1.8</title>
+            <pubDate>Thu, 08 Oct 2026 12:28:21 +0000</pubDate>
+            <sparkle:version>1018</sparkle:version>
+            <sparkle:shortVersionString>0.1.8</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<!doctype html><html lang="en"><head><meta charset="utf-8"><title>DITT 0.1.7</title></head><body>
-<h1>Checks focus on what you are reading</h1><ul>
-<li>Prioritizes the open email or main browser content, keeping sender details, message context and exposed link destinations together.</li>
-<li>Adds conversation selection for Messages, WhatsApp, Telegram, Signal and Slack, where the app exposes a readable transcript.</li>
-<li>Gives recent visible messages priority over chat lists and older history, with clear notes when content is omitted from an online check.</li>
-<li>Reduces repeat chat uploads caused by sidebar changes, typing indicators and read receipts.</li>
-<li>Reads exposed descriptions from native list rows when those rows provide no ordinary readable text.</li>
-<li>Keeps reviewed text consistent with what is sent, including custom text filters and long conversations.</li>
-</ul><p>Local checks still inspect the wider readable capture. Saved monitoring, cloud, privacy and update preferences remain in place. App Accessibility support varies; hidden link destinations are available only when the app exposes them. Browser reading uses Accessibility and does not require a new extension. Coverage in individual clients is still being validated.</p></body></html>
+            <description><![CDATA[<!doctype html><html lang="en"><head><meta charset="utf-8"><title>DITT 0.1.8</title></head><body>
+<h1>Balanced warnings catch more concrete concerns</h1><ul>
+<li>Balanced can now alert on requests for codes, passwords, recovery keys, remote access, advance payments or changed payment details when DITT recommends verification, even before a finding becomes red.</li>
+<li>Company-domain warnings can alert when backed by another message warning. On your Mac, an active request with both an unlisted sender and destination can also alert.</li>
+<li>Routine link quirks, urgency alone and incomplete company-directory entries alone stay quiet at Balanced. Quiet and Sensitive settings retain their thresholds.</li>
+<li>Fixes missing unread badges when a check becomes concerning without its warning colour changing.</li>
+<li>A stronger warning can interrupt after a weaker one during the notification cooldown. Same-strength repeats remain quiet.</li>
+<li>Removes the blanket notice about unavailable factual checks. Each result still shows its actual coverage and limitations.</li>
+</ul><p>Saved settings and history remain in place. These changes affect alerts and badges; they do not change server scores or add new permissions.</p></body></html>
 ]]></description>
-            <enclosure url="https://github.com/rebellion-systems/doitrustthis-macos-releases/releases/download/v0.1.7-preview.16/DITT-macOS-signed.zip" length="8032118" type="application/octet-stream" sparkle:edSignature="5FvA+6QTZp+74Ue8Ax16+NOHRennmVEPRn/wrZtlY9tcaq5nqUvTRz7wx74lDKPWfGBsri4PwLvcaLyVyPLsAw=="></enclosure>
+            <enclosure url="https://github.com/rebellion-systems/doitrustthis-macos-releases/releases/download/v0.1.8-preview.17/DITT-macOS-signed.zip" length="8051451" type="application/octet-stream" sparkle:edSignature="ZyCUGPiImE5lUIHPmwaE+TVZoufDxuha75mxMX3xHdiKBuQQJHdU2WaAel/0W8+JlD6e6Kdy1lIFp/duFzoMAA=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: onTyC0/Gu5WPMx1FUqW6pMeBBGYA4jspMVOaOZpfZHqyyr+ZWSdeTlYLCK29MI13UGGqV2Koy20jqDzJ0n4mCg==
-length: 2415
+edSignature: 4m1MXMX+E44LOCPT4DiA9IhMqZt5pY82LpvBdBG7E0VX02WW2tRuvhElqlSGLSAU+xUH203P8sXnIT/y8yhaAg==
+length: 2381
 -->
